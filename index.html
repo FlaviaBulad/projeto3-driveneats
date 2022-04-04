@@ -12,199 +12,115 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-<div class="header">
-    <div class="title">
-        <h1>Driven Eats</h1>
-        <h2>Sua comida em 6 minutos</h2>
-    </div>
-</div>
-<!---->
-<div class="main-container">
-<div class="category">
-    <h3>Primeiro, seu prato</h3>
-</div>
-<!--Chicken-->
-<div class="container">
- 
-<div id="chicken" class="product">
-<img src="/images/frango_yin_yang 1.png"/>
-<h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
-<p>R$ 14,90</p>
-</div>
-
-<div id="chicken" class="product">
-<img src="/images/frango_yin_yang 1.png"/>
-<h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
-<p>R$ 14,90</p>
-</div>
-
-<div id="chicken" class="product">
-<img src="/images/frango_yin_yang 1.png"/>
-<h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
-<p>R$ 14,90</p>
-</div>
-</div> 
-
-  <!---->
-  
-  <div class="category">
-    <h3>Agora, sua bebida</h3>
-</div>
-<div class="container">
- 
-<div id="coke" class="product">
-<img src="/images/coquinha_gelada 1.png"/>
-<h4>Coquinha Gelada</h4>
-<p>Lata 350ml</p>
-<p>R$ 4,90</p>
-</div>
-
-<div id="coke" class="product">
-<img src="/images/coquinha_gelada 1.png"/>
-<h4>Coquinha Gelada</h4>
-<p>Lata 350ml</p>
-<p>R$ 4,90</p>
-</div>
-
-<div id="coke" class="product">
-<img src="/images/coquinha_gelada 1.png"/>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Driven Eats</title>
-    <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/hamburger_1f354.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
 
 <body>
-
+<!--HEADER-->
 <div class="header">
     <div class="title">
-        <h1>Driven Eats</h1>
+        <h1>DrivenEats</h1>
         <h2>Sua comida em 6 minutos</h2>
     </div>
 </div>
 
-<!---->
+<!--MENU TITLE-->
 
 <div class="main-container">
 <div class="category">
     <h3>Primeiro, seu prato</h3>
 </div>
-<!--Chicken-->
+<!--MAIN DISH-->
 <div class="container">
  
-<div id="chicken1" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDish(this)">
 <img src="/images/frango_yin_yang 1.png"/>
 <h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
+<h5>Um pouco de batata, um pouco de salada</h5>
 <p>R$ 14,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 
-<div id="chicken2" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDish(this)">
 <img src="/images/frango_yin_yang 1.png"/>
 <h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
+<h5>Um pouco de batata, um pouco de salada</h5>
 <p>R$ 14,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 
-<div id="chicken3" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDish(this)">
 <img src="/images/frango_yin_yang 1.png"/>
 <h4>Frango Yin-Yang</h4>
-<p>Um pouco de batata, um pouco de salada</p>
+<h5>Um pouco de batata, um pouco de salada</h5>
 <p>R$ 14,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 </div> 
 
-  <!---->
-  
+  <!--DRINK-->
   <div class="category">
     <h3>Agora, sua bebida</h3>
 </div>
 <div class="container">
  
-<div id="coke" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDrink(this)">
 <img src="/images/coquinha_gelada 1.png"/>
 <h4>Coquinha Gelada</h4>
-<p>Lata 350ml</p>
+<h5>Lata 350ml</h5>
 <p>R$ 4,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 
-<div id="coke" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDrink(this)">
 <img src="/images/coquinha_gelada 1.png"/>
 <h4>Coquinha Gelada</h4>
-<p>Lata 350ml</p>
+<h5>Lata 350ml</h5>
 <p>R$ 4,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 
-<div id="coke" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDrink(this)">
 <img src="/images/coquinha_gelada 1.png"/>
 <h4>Coquinha Gelada</h4>
-<p>Lata 350ml</p>
+<h5>Lata 350ml</h5>
 <p>R$ 4,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 </div>
-<!---->
-<div class="category" onclick="selectDish()">
+
+<!--DESSERT-->
+<div class="category" onclick="selectDessert(this)">
     <h3>Por fim, sua sobremesa</h3>
 </div>
 <div class="container">
  
-<div id="pudding" class="product" onclick="selectDish()">
+<div class="product" onclick="selectDessert(this)">
 <img src="/images/pudim 1.png"/>
 <h4>Pudim</h4>
-<p>Apenas pudim</p>
+<h5>Apenas pudim</h5>
 <p>R$ 7,90</p>
-<img class="check-icon" src="images/Vector.png"/>
 </div>
 
-<div id="pudding" class="product" onclick="selectDish()">
-<img src="/images/pudim 1.png"/>
-<h4>Pudim</h4>
-<p>Apenas pudim</p>
-<p>R$ 7,90</p>
-<img class="check-icon" src="images/Vector.png"/>
+<div class="product" onclick="selectDessert(this)">
+    <img src="/images/pudim 1.png"/>
+    <h4>Pudim</h4>
+    <h5>Apenas pudim</h5>
+    <p>R$ 7,90</p>
+    </div>
+
+    <div class="product" onclick="selectDessert(this)">
+        <img src="/images/pudim 1.png"/>
+        <h4>Pudim</h4>
+        <h5>Apenas pudim</h5>
+        <p>R$ 7,90</p>
+        </div>
+        
+        </div>
+
+     <!--FOOTER-->   
+<div class="footer">
+<div class="footer-button">
+<p>Selecione os 3 itens para fechar o pedido</p>
+</div>
+<div class="footer-order hidden">
+    <a>Fechar pedido</a>
+</div>
 </div>
 
-<div id="pudding" class="product" onclick="selectDish()">
-<img src="/images/pudim 1.png"/>
-<h4>Pudim</h4>
-<p>Apenas pudim</p>
-<p>R$ 7,90</p>
-<img class="check-icon" src="images/Vector.png"/>
-</div>
-</div>
-
-<div class="finalize-buttom">
-    <!--Green Buttom-->
-<div class="green-buttom hidden">
-    <p>Finalizar Pedido</p>
-</div>
-<!--Gray buttom-->
-<div class="gray-buttom">
-    <p>Selecione os 3 itens para fechar o pedido</p>
-</div>
-</div>
-<!---->
-</div>
-<!---->
+<!--JAVASCRIPT-->
     <script src="scripts.js"></script>
 </body>
 </html>
