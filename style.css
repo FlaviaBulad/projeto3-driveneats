@@ -1,25 +1,39 @@
 
-body {
-    width:414px;
-    background-color:cyan;
-    }
-    
-    .header {
-    width:414px;
-    background-color:#cf2b2b;
-    }
-    .main-container {
-        background-color:blueviolet;
-    }
-    
-    .container{
-    background-color:#e5e5e5;
-    display:flex;
-    }
-    
-    .product{
-    width:172px;
-    height:216px;
-    background-color: #ffffff;
-    }
-  
+.hidden{
+    display:none;
+}
+
+.header {
+width:414px;
+background-color:#cf2b2b;
+}
+.main-container {
+    background-color:blueviolet;
+}
+
+.category{
+    background-color:yellow;
+}
+
+.container{
+background-color:#e5e5e5;
+display:flex;
+}
+
+.product{
+width:172px;
+height:216px;
+background-color: #ffffff;
+border: 1px solid white;
+}
+.finalize-buttom{
+    width:364px;
+    height:62px;
+}
+.gray-buttom{
+    background-color:#cbcbcb;
+}
+
+.green-buttom{
+    background-color:#32B72F;
+}
